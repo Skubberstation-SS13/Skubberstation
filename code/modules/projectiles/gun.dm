@@ -100,7 +100,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/guns_righthand.dmi'
 
-	var/obj/item/firing_pin/pin = /obj/item/firing_pin //standard firing pin for most guns
+	var/obj/item/firing_pin/pin = /obj/item/firing_pin/clown //standard firing pin for most guns
 	/// True if a gun dosen't need a pin, mostly used for abstract guns like tentacles and meathooks
 	var/pinless = FALSE
 
