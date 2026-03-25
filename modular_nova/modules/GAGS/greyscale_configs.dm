@@ -2641,6 +2641,102 @@ TREK
 	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
 
 /*
+Security
+*/
+
+/datum/greyscale_config/secformal
+	name = "Security Formal Suit"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secformal.json'
+
+/datum/greyscale_config/secformal/worn
+	name = "Security Formal Suit (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secformal_worn.json'
+
+/datum/greyscale_config/secformal/worn/digi
+	name = "Security Formal Suit (Worn, Digi)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
+
+/datum/greyscale_config/secturtleneck
+	name = "Security Turtleneck"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secturtleneck.json'
+
+/datum/greyscale_config/secturtleneck/worn
+	name = "Security Turtleneck (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secturtleneck_worn.json'
+
+/datum/greyscale_config/secturtleneck/worn/digi
+	name = "Security Turtleneck (Worn, Digi)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
+
+/datum/greyscale_config/secshorts
+	name = "Security Cargo Shorts"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secshorts.json'
+
+/datum/greyscale_config/secshorts/worn
+	name = "Security Cargo Shorts (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+
+/datum/greyscale_config/secshorts/worn/digi
+	name = "Security Cargo Shorts (Worn, Digi)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
+
+/datum/greyscale_config/sectrousers
+	name = "Security Trousers"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/sectrousers.json'
+
+/datum/greyscale_config/sectrousers/worn
+	name = "Security Trousers (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+
+/datum/greyscale_config/sectrousers/worn/digi
+	name = "Security Trousers (Worn, Digi)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
+
+/datum/greyscale_config/modskin
+	name = "M.O.D. Skinsuit"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/modskin.json'
+
+/datum/greyscale_config/modskin/worn
+	name = "M.O.D. Skinsuit (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/modskin_worn.json'
+
+/datum/greyscale_config/modskin/worn/digi
+	name = "M.O.D. Skinsuit (Worn, Digi)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
+
+/datum/greyscale_config/secjumpsuit
+	name = "Security Jumpsuit"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secjumpsuit.json'
+
+/datum/greyscale_config/secjumpsuit/worn
+	name = "Security Jumpsuit (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secjumpsuit_worn.json'
+
+/datum/greyscale_config/secjumpsuit/worn/digi
+	name = "Security Jumpsuit (Worn, Digi)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts_digi.dmi'
+
+/datum/greyscale_config/secdress
+	name = "Security Dress"
+	icon_file = 'modular_nova/master_files/icons/obj/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secdress.json'
+
+/datum/greyscale_config/secdress/worn
+	name = "Security Dress (Worn)"
+	icon_file = 'modular_nova/master_files/icons/mob/clothing/under/shorts_pants_shirts.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/under/secdress_worn.json'
+
+/*
 This is all our modular PDAs, ITS LARGE!
 */
 
