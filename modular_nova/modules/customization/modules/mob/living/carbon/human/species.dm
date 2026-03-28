@@ -58,7 +58,7 @@ GLOBAL_LIST_EMPTY(customizable_races)
 		STOP_PROCESSING(SSobj, old_stomach)
 
 /datum/species/dullahan
-	nova_stars_only = TRUE
+	nova_stars_only = FALSE // SKUBBER EDIT - CHANGE - PREVIOUS: nova_stars_only = TRUE
 	outfit_important_for_life = /datum/outfit/dullahan
 
 /datum/species/dullahan/pre_equip_species_outfit(datum/job/job, mob/living/carbon/human/equipping, visuals_only)
