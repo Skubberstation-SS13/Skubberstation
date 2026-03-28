@@ -1,6 +1,6 @@
 /datum/species/golem/weak
 	id = SPECIES_GOLEMWEAK
-	nova_stars_only = TRUE
+	nova_stars_only = FALSE // SKUBBER EDIT - CHANGE - PREVIOUS: nova_stars_only = TRUE
 	var/static/list/blacklisted_materials = list(
 		/datum/golem_food_buff/bluespace,
 		/datum/golem_food_buff/gibtonite,
